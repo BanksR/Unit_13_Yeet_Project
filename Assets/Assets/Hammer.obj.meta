@@ -1,16 +1,16 @@
 fileFormatVersion: 2
-guid: f4b38304d7c1d0c47a9a5cb2fc80889b
+guid: 36e06b71f41481a409acae4b41bdd28c
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: default
-    400000: //RootNode
-    400002: default
-    2100000: defaultMat
-    2300000: default
-    3300000: default
-    4300000: default
+    100000: Hammer
+    100002: //RootNode
+    400000: Hammer
+    400002: //RootNode
+    2100000: HammerMat
+    2300000: Hammer
+    3300000: Hammer
+    4300000: Hammer
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -50,7 +50,7 @@ ModelImporter:
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 1
+    generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
