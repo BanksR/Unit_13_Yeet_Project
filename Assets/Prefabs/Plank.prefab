@@ -24,7 +24,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 8
+  m_StaticEditorFlags: 9
   m_IsActive: 1
 --- !u!1 &1835004480447730
 GameObject:
@@ -36,13 +36,12 @@ GameObject:
   - component: {fileID: 4314765786890140}
   - component: {fileID: 33589353139971456}
   - component: {fileID: 23291628998293658}
-  - component: {fileID: 65024023173996598}
   m_Layer: 0
   m_Name: default
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 8
+  m_StaticEditorFlags: 9
   m_IsActive: 1
 --- !u!4 &4142599858507910
 Transform:
@@ -86,7 +85,7 @@ MeshRenderer:
   m_ReflectionProbeUsage: 1
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 2d6e1b8c772f14d8caddeed89a4e4b0e, type: 2}
+  - {fileID: 2100000, guid: c248b6b8dd98f9a49bee1c5fd5a994ca, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -113,15 +112,3 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1835004480447730}
   m_Mesh: {fileID: 4300000, guid: a86a8ca0276d2d4469756dda06ec9726, type: 3}
---- !u!65 &65024023173996598
-BoxCollider:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1835004480447730}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.54072654, y: 0.112, z: 4.4866247}
-  m_Center: {x: -0.009750381, y: 0.056, z: 0.004419446}
