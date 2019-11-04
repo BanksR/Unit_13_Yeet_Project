@@ -8,14 +8,13 @@ public class DialogText : MonoBehaviour
 
 	[TextArea(10, 10)]
 	public string DialogToGive;
+	
 	private string[] dialogArray;
 	public Queue<string> DialogQ;
 
 	public string DialogGiversName = "";
 
 	public bool hasTextToDisplay = true;
-
-	//public DialogManager dialogManager;
 	
 	// Use this for initialization
 	void Awake ()
@@ -34,7 +33,6 @@ public class DialogText : MonoBehaviour
 		{
 			string t = DialogQ.Dequeue();
 			return t;
-			//DialogManager.Instance.DisplayText(qText);
 
 		}
 
