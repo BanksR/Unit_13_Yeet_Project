@@ -44,7 +44,7 @@ public class DialogText : MonoBehaviour
 
 	private void OnTriggerEnter(Collider other)
 	{
-		if (other.gameObject.CompareTag("Player"))
+		if (other.gameObject.CompareTag("Player") && hasTextToDisplay)
 		{
 			DialogManager.Instance.dialogText = this;
 			DialogManager.Instance.TriggerAnim();
