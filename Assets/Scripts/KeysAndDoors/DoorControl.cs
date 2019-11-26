@@ -15,7 +15,7 @@ public class DoorControl : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Zombie"))
+        if (other.gameObject.CompareTag("Zombie") || other.gameObject.CompareTag("Player"))
         {
             _anims.SetTrigger("Open");
             _doorCollider.enabled = false;
