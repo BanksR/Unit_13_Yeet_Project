@@ -27,7 +27,7 @@
             <e p="SwingTrapController.cs" t="Include" />
           </e>
         </e>
-<<<<<<< Updated upstream
+        <e p="SimpleLocomotion.cs" t="Include" />
         <e p="Standard Assets" t="Include">
           <e p="Characters" t="Include">
             <e p="FirstPersonCharacter" t="Include">
@@ -90,8 +90,6 @@
             <e p="WaypointProgressTracker.cs" t="Include" />
           </e>
         </e>
-=======
->>>>>>> Stashed changes
       </e>
       <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />

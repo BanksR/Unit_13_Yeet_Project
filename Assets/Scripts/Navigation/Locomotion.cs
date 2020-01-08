@@ -12,6 +12,7 @@ public class Locomotion : MonoBehaviour
     //Defining an array of waypoint gameobjects
     private GameObject[] _wayPoints;
     
+    // Position info for the current destination
     private Vector3 _navDestination;
 
     public static float stopRad = .5f;
@@ -55,9 +56,13 @@ public class Locomotion : MonoBehaviour
     //This function advances the destination to the next waypoint
     void GoToNextPoint()
     {
+        
+        // If the array length is 0 (empty) simply return out of the function
         if (_wayPoints.Length == 0)
             return;
 
+        // If we have some active waypoints in the array, increment by 1 (modulo of the total array size)
+        // then set the nav destination to the transform of the next waypoint.
         _nextPoint = (_nextPoint + 1) % _wayPoints.Length;
         _nav.destination = _wayPoints[_nextPoint].transform.position;
         
